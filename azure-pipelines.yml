@@ -1,0 +1,5 @@
+steps:
+- script: node ./dist/index.js
+  displayName: 'npm start'
+- script: npx tsc
+  displayName: 'npm build'
